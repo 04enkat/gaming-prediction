@@ -1,0 +1,128 @@
+    /* <style> */
+    /* Styling for the result notification popup */
+    @import url(./Roboto-Regular.ttf);
+    * {
+        font-family: "Roboto", sans-serif;
+    }
+    #resultPopup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        z-index: 1000;
+        font-size: 1.5em;
+    }
+
+    #overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 999;
+    }
+
+    .info-icon {
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    /* </style> */
+    .profile-image {
+        width: 150px;
+        height: 150px;
+        margin: 20px auto;
+        overflow: hidden;
+        border-radius: 50%;
+        /* Circular shape */
+        border: 3px solid #4CAF50;
+        /* Optional border */
+    }
+
+    .profile-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Ensures image fills circular container */
+    }
+
+    /* Additional button styles for consistency */
+    .profile-buttons .btn,
+    .btn-logout {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .btn:hover,
+    .btn-logout:hover {
+        background-color: #45a049;
+    }
+
+    .footer-nav {
+        background-color: rgb(167 185 245);
+        position: fixed;
+        bottom: 0;
+        width: calc(100vw - 100px);
+        margin: 20px 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        padding: 12px;
+        box-shadow: 3px 5px 3px 0px #c3c3c3;
+        border-radius: 25px;
+        z-index: 10;
+
+        & a {
+            text-decoration: none;
+            padding: 8px 35px;
+            font-size: 20px;
+            font-weight: 600;
+            color: black;
+        }
+        & a:hover {
+            color: blue;
+            background-color: white;
+            border-radius: 20px;
+        }
+
+        & .nav-start {
+            
+        }
+    }   
+
+
+    .manual_btn{
+        background-color: rgb(0 77 114);
+        height: auto;
+        border-radius: 30px;
+        padding: 9px;
+        width: 200px;
+        display: inline-block;
+        font-size: larger;
+        color: yellow;
+        text-decoration: none;
+        font-weight: 700;
+        border: 2px solid rgb(109, 108, 108);
+        transition: 0.4s ease;
+    }
+    .manual_btn:hover{
+        color: rgb(0 77 114);
+        background-color: yellow;
+        
+    }

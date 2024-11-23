@@ -1,0 +1,93 @@
+/* Basic Reset */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Bruno Ace", sans-serif;
+}
+
+/* client signup page  */
+body {
+
+    /* background-repeat: no-repeat; */
+}
+
+.signup_container {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(https://img.freepik.com/free-vector/electric-technology-background_52683-34277.jpg?t=st=1731511000~exp=1731514600~hmac=4e772b785a43a79d26a608d669e140666ef1cd3635009a4559fd42ea3792869a&w=740);
+    background-size: cover;
+    height: 100vh;
+}
+
+.signup_box {
+    width: max-content !important;
+    height: auto;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    padding: 40px;
+    
+}
+
+.label_design {
+    color: #bfacc8;
+
+}
+.glassmorphism{
+    background: rgba(255, 255, 255, 0);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.form-group input{
+    background-color: transparent !important;
+    color:white !important;
+}
+.form-group input::placeholder{
+    color: white  !important;
+    font-size: small;
+} 
+.form-group input:focus{
+    outline: none !important;
+    color:white !important;
+    font-size: small;
+} 
+
+/* index page design */
+.bg-index{
+    background:linear-gradient(to top left, #cfcbd2,#cb98ed,#8b63da,#3c21b7);
+}
+.bg-img-index{
+    /* background: url(https://image.similarpng.com/very-thumbnail/2021/01/Colorful-confetti-for-festive-celebrations-on-transparent-background-PNG.png); */
+    
+}
+.glow-text{
+    color:#133;
+    font-weight: bold;
+    text-shadow: 
+    0 0 4px rgba(255,255,255,0.8),
+    0 0 8px rgba(255,255,255,0.6),
+    0 0 12px rgba(255,200,100,0.7),
+    0 0 16px rgba(255,150,50,0.8);
+    /* font-size: 3rem; */
+}
+.manual_btn{
+    width: 100% !important;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #3c21b7;
+    text-decoration: none;
+    color: white;
+}
+.manual_btn:hover{
+   
+    background-color: white;
+    color: #3c21b7;
+}
