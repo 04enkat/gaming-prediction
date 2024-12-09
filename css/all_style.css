@@ -1,0 +1,77 @@
+body{
+  background: radial-gradient(ellipse at center, #3e515b 30%, #4d6471 70%);
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .desktop-bg {
+    background-image: url(/images/mobile-bg-n.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .footer-nav {
+    background-color: rgb(167 185 245);
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw - 100px);
+    margin: 20px 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 12px;
+    box-shadow: 3px 5px 3px 0px #c3c3c3;
+    border-radius: 25px;
+    z-index: 10;
+
+    & .footer-btn {
+      text-decoration: none;
+      padding: 2px 1px;
+      font-size: 15px;
+      font-weight: 600;
+      color: rgb(0, 0, 0);
+    }
+    & .footer-btn:hover {
+      color: blue;
+      background-color: none !important;
+    }
+
+    & .nav-start {
+    }
+  }
+  .man-img {
+    display: none;
+  }
+  .card-manual{
+    margin-left: 70px !important;
+  }
+}
+
+.desktop-bg {
+  background-image: url(/images/new-desk-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-manual{
+  width: 70%;
+  border: 2px solid white;
+  padding: 18px 25px;
+  border-radius: 26px;
+  margin-left: 150px;
+}
+.product-title{
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+}
+.product-price{
+  font-size: larger;
+  font-weight: 900;
+}
+.product-description{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #d3b300;
+}
